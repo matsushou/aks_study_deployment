@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: echo-service
+spec:
+  loadBalancerIP: {静的IPに置き換える}
