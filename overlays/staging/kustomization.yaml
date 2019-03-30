@@ -1,0 +1,9 @@
+bases:
+  - ../../base
+namePrefix: stg-
+patches:
+- service-staging.yaml
+configMapGenerator:
+  - name: special-config
+    files:
+      - config/application.yaml
