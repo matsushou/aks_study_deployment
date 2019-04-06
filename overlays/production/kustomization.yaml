@@ -1,6 +1,6 @@
 bases:
   - ../../base
-namePrefix: stg-
+namePrefix: prd-
 patches:
 - service-staging.yaml
 configMapGenerator:
